@@ -1,0 +1,21 @@
+[
+  { "value": "", "label": "All" },
+  { "value": "Bug", "label": "Bug" },
+  { "value": "Dark", "label": "Dark" },
+  { "value": "Dragon", "label": "Dragon" },
+  { "value": "Electric", "label": "Electric" },
+  { "value": "Fairy", "label": "Fairy" },
+  { "value": "Fire", "label": "Fire" },
+  { "value": "Fighting", "label": "Fighting" },
+  { "value": "Flying", "label": "Flying" },
+  { "value": "Grass", "label": "Grass" },
+  { "value": "Ghost", "label": "Ghost" },
+  { "value": "Ground", "label": "Ground" },
+  { "value": "Ice", "label": "Ice" },
+  { "value": "Normal", "label": "Normal" },
+  { "value": "Poison", "label": "Poison" },
+  { "value": "Psychic", "label": "Psychic" },
+  { "value": "Water", "label": "Water" },
+  { "value": "Rock", "label": "Rock" },
+  { "value": "Steel", "label": "Steel" }
+]

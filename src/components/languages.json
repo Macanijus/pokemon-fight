@@ -1,0 +1,6 @@
+[
+  { "value": "english", "label": "English" },
+  { "value": "french", "label": "French" },
+  { "value": "chinese", "label": "Chinese" },
+  { "value": "japanese", "label": "Japanese" }
+]
