@@ -3,6 +3,8 @@ import Error from "./components/Error";
 import Home from "./components/Home";
 import Pokemon from "./components/Pokemon";
 import PokemonInfo from "./components/PokemonInfo";
+import Footer from "./components/Footer";
+
 import {
   Route,
   createBrowserRouter,
@@ -100,6 +102,7 @@ function App() {
   return (
     <div className="app">
       <RouterProvider router={router} />
+      <Footer />
     </div>
   );
 }
