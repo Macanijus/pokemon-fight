@@ -17,7 +17,7 @@ const Pokemon = ({ getRandom, lang }) => {
 
   const updatePoke = (id) => {
     axios
-      .put(`http://localhost:9000/pokemons/${id}`)
+      .put(`https://pokemonfight-8usf.onrender.com/pokemons/${id}`)
       .then((res) => {
         console.log(res.data);
       })
