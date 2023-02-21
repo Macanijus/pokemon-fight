@@ -44,7 +44,7 @@ function App() {
           }
           loader={async () => {
             const data = await fetch(
-              `https://pokemonfight-8usf.onrender.com/pokemons`
+              `https://pokemonfight-82p0.onrender.com/pokemons`
             );
             if (data.status === 404) {
               throw new Response("Not Found", { status: 404 });
@@ -58,12 +58,12 @@ function App() {
           errorElement={<Error error={error} />}
           loader={async ({ params: { id } }) => {
             const data1 = await fetch(
-              `https://pokemonfight-8usf.onrender.com/pokemons/${id}`
+              `https://pokemonfight-82p0.onrender.com/pokemons/${id}`
             )
               .then((data) => data.json())
               .catch((e) => setError(e));
             const data2 = await fetch(
-              `https://pokemonfight-8usf.onrender.com/pokemons/rando`
+              `https://pokemonfight-82p0.onrender.com/pokemons/rando`
             )
               .then((data) => data.json())
               .catch((e) => setError(e));
@@ -89,7 +89,7 @@ function App() {
           errorElement={<Error error={error} />}
           loader={async ({ params: { id } }) => {
             const data = await fetch(
-              `https://pokemonfight-8usf.onrender.com/pokemons/highscores`
+              `https://pokemonfight-82p0.onrender.com/pokemons/highscores`
             )
               .then((data) => data.json())
               .catch((e) => setError(e));
