@@ -67,6 +67,7 @@
 
 .pic {
   /* background-color: #d42f24; */
+  margin-left: 20px;
 
   background-color: #4c5eda;
   border: 3px solid #03419e;
@@ -221,6 +222,16 @@ button {
   gap: 20px;
   width: 80vw;
   justify-items: center;
+  background-color: rgba(
+    128,
+    128,
+    128,
+    0.5
+  ); /* grayish and transparent background color */
+  border: 1px solid #000; /* black border around the container */
+  padding: 10px; /* add some padding around the container */
+  border-radius: 15px;
+
   /* display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -228,6 +239,9 @@ button {
 }
 .pokedex img {
   width: 120px;
+  display: block; /* display each image as a block element */
+  margin: 10px auto; /* add some margin between the images */
+  max-width: 100%;
 }
 
 .onePoke {
@@ -286,7 +300,7 @@ button {
   margin: 5px; */
   color: white;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 5px;
   box-shadow: 0 0 8px white;
   width: 10vw;

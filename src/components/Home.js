@@ -44,7 +44,7 @@ const Home = ({
   // }, [selectedValue]);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [articlesPerPage] = useState(18);
+  const [articlesPerPage] = useState(9);
 
   const indexOfLastArticle = currentPage * articlesPerPage;
   const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
