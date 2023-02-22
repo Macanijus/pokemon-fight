@@ -157,6 +157,21 @@ const Home = ({
         selectedValue={selectedValue}
       />
 
+      <div className="pagination">
+        <Pagination
+          /*         nPages={nPages}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage} */
+          articlesPerPage={articlesPerPage}
+          totalArticles={
+            searchedPokemons.length > 0
+              ? searchedPokemons.length
+              : pokemons.length
+          }
+          paginate={paginate}
+        />
+      </div>
+
       {/* 
       {input !== "" ? (
         <Pokecard
@@ -173,20 +188,6 @@ const Home = ({
       )} */}
       {/* </div>
       </div> */}
-      <div className="pagination">
-        <Pagination
-          /*         nPages={nPages}
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage} */
-          articlesPerPage={articlesPerPage}
-          totalArticles={
-            searchedPokemons.length > 0
-              ? searchedPokemons.length
-              : pokemons.length
-          }
-          paginate={paginate}
-        />
-      </div>
     </div>
   );
 };
